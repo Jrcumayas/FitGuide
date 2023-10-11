@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Custom Workout 1",
+    "description": "This is a beginner-level workout routine designed to introduce basic exercises and build strength.",
+    "image" : "lib/assets/images/buttons/stretch.png",
+    "exercises": [
+      {
+        "name": "Push-ups",
+        "sets": 3,
+        "reps": 10,
+        "duration": 30
+      },
+      {
+        "name": "Bodyweight Squats",
+        "sets": 3,
+        "reps": 12,
+        "duration": 45
+      },
+      {
+        "name": "Plank",
+        "sets": 3,
+        "reps": 20,
+        "duration": 30
+      },
+      {
+        "name": "Dumbbell Rows",
+        "sets": 3,
+        "reps": 10,
+        "duration": 30
+      },
+      {
+        "name": "Jumping Jacks",
+        "sets": 3,
+        "reps": 15,
+        "duration": 60
+      }
+    ]
+  },
+  {
+    "name": "Custom Workout 2",
+    "description": "This is an intermediate-level workout routine designed to challenge your strength and endurance.",
+    "image" : "lib/assets/images/buttons/stretch.png",
+    "exercises": [
+      {
+        "name": "Diamond Push-ups",
+        "sets": 4,
+        "reps": 12,
+        "duration": 35
+      },
+      {
+        "name": "Goblet Squats",
+        "sets": 4,
+        "reps": 10,
+        "duration": 40
+      },
+      {
+        "name": "Side Plank",
+        "sets": 3,
+        "reps": 15,
+        "duration": 35
+      },
+      {
+        "name": "Chin-ups",
+        "sets": 4,
+        "reps": 8,
+        "duration": 25
+      },
+      {
+        "name": "Burpees",
+        "sets": 3,
+        "reps": 12,
+        "duration": 50
+      }
+    ]
+  },
+  {
+    "name": "Custom Workout 3",
+    "description": "This is an advanced-level workout routine designed for experienced individuals looking for a challenging workout.",
+    "image" : "lib/assets/images/buttons/stretch.png",
+    "exercises": [
+      {
+        "name": "One-Arm Push-ups",
+        "sets": 5,
+        "reps": 8,
+        "duration": 40
+      },
+      {
+        "name": "Pistol Squats",
+        "sets": 5,
+        "reps": 6,
+        "duration": 40
+      },
+      {
+        "name": "L-Sit Hold",
+        "sets": 4,
+        "reps": 15,
+        "duration": 30
+      },
+      {
+        "name": "Muscle-ups",
+        "sets": 5,
+        "reps": 5,
+        "duration": 45
+      },
+      {
+        "name": "Box Jumps",
+        "sets": 4,
+        "reps": 8,
+        "duration": 50
+      }
+    ]
+  }
+]
