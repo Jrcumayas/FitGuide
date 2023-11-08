@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-const url = 'loud-boats-yawn.loca.lt';
+const url = 'late-women-grow.loca.lt';
 
 Future<void> testRequest() async {
   Uri uri = 
