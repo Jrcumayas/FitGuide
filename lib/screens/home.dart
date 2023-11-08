@@ -39,7 +39,11 @@ class _HomeScreen extends State<HomeScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return WillPopScope(
+      onWillPop: () async {
+        return false;
+      },
+      child: Scaffold(
       appBar: AppBar(
         centerTitle: true,
         title: const LogoComponent(
@@ -107,6 +111,7 @@ class _HomeScreen extends State<HomeScreen> {
       ), 
       bottomNavigationBar: BottomNavigationBarComponent(
         selectedIndex: _selectedIndex,
+      ),
       ),
     );
   }

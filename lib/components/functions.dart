@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class LoginInputValidation {
   static bool checkInput(String username, String password){
     if (username.isEmpty && password.isEmpty) {
@@ -13,3 +11,5 @@ class LoginInputValidation {
     }
   }
 }
+
+

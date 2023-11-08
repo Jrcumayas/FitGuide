@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:logger/logger.dart';
 import '../utilities/utilities.dart';
 
 import 'package:fitguide/screens/login.dart';
 import 'package:fitguide/screens/home.dart';
 import 'package:fitguide/screens/profile.dart';
 import 'package:fitguide/screens/workout_details.dart';
+
+var logger = Logger();
 
 class Exercise {
   final String name;
@@ -356,7 +359,7 @@ class DisplayWorkoutComponent extends StatelessWidget{
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: ElevatedButton(
                 onPressed: () {
-                  print("Selected workout: ${workout.name}");
+                  logger.i('Selected');
                   Navigator.push(
                     context,
                     MaterialPageRoute(
